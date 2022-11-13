@@ -8,7 +8,6 @@ body {
 
 
 div#banner{
-    position: center;
 	background: url("pobrane.jfif") 50% no-repeat ;
 	position: absolute;  
 	top: 20px;
