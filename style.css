@@ -1,3 +1,5 @@
+
+
 body {
     
     background-color: antiquewhite;
@@ -5,12 +7,12 @@ body {
 
 
 
-
 div#banner{
-	left: 375px;
+    position: center;
 	background: url("pobrane.jfif") 50% no-repeat ;
 	position: absolute;  
 	top: 20px;
+	left: 375px;
 	width: 700px;
 	height: 235px;
     position: relative;
@@ -19,9 +21,7 @@ div#banner{
     
 }
 
-div#aaa
-{
-	
+div#aaa{
     position: absolute; 
 	top: 300px;
 	left: 375px;
@@ -35,7 +35,7 @@ div#aaa
     color: brown;
 }
 div#bbb{
-   
+    
     position: absolute; 
 	top: 650px;
 	left: 375px;
