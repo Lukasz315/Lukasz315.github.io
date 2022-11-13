@@ -1,18 +1,72 @@
-body
-{
+body {
+    
     background-color: antiquewhite;
 }
-img
- {
-    content: url("OIP.jfif");
-    width: 300px;
-    height: 300px;
-    border-radius: 100px;
- }
-p
-{
-    color: rgb(77, 72, 7);
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
+
+
+
+div#logo{
+	background: url("OIP.jfif") 50% no-repeat;
+	position: absolute;   
+	top: 20px;
+	left: 100px;
+	width: 160px;
+	height: 235px;
+	padding-top: 10px;
+    border-radius: 25px;
+     border: 1px solid black;
+    border-bottom: 2px solid black;
+       box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.75);
+}
+
+div#logo2{
+	background: url("MTAyNHg3Njg12196806_12197594.jpg") 50% no-repeat;
+	position: absolute;   
+	top: 20px;
+	right: 150px;
+	width: 160px;
+	height: 235px;
+	padding-top: 10px;
+    border-radius: 25px;
+     border: 1px solid black;
+    border-bottom: 2px solid black;
+       box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.75);
+}
+
+div#banner{
+	background: url("pobrane.jfif") 50% no-repeat ;
+	position: absolute;  
+	top: 20px;
+	left: 375px;
+	width: 700px;
+	height: 235px;
+    position: relative;
+       box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.75);
+    background-color: beige;
+    
+}
+
+div#aaa{
+    position: absolute; 
+	top: 300px;
+	left: 375px;
+	border-top: 5px dotted gray;
+    border-bottom:  5px dotted grey;
+	width: 700px;
+	padding: 10px;
+    background-color: beige;
+    text-align: center;
+    font-family: cursive;
+    color: brown;
+}
+div#bbb{
+    
+    position: absolute; 
+	top: 650px;
+	left: 375px;
+	border-top: 5px dotted gray;
+    border-bottom:  5px dotted grey;
+	width: 700px;
+	padding: 10px;
+    background-color: beige;
 }
